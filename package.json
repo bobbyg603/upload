@@ -1,0 +1,35 @@
+{
+  "name": "upload",
+  "version": "1.0.0",
+  "description": "Monorepo that demonstrates file uploads with Angular and Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobbyg603/upload.git"
+  },
+  "keywords": [
+    "monorepo",
+    "npm",
+    "client",
+    "server",
+    "file",
+    "upload",
+    "angular",
+    "ng",
+    "express",
+    "bobbyg603"
+  ],
+  "author": "@bobbyg603",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bobbyg603/upload/issues"
+  },
+  "homepage": "https://github.com/bobbyg603/upload#readme",
+  "workspaces": [
+    "client",
+    "server"
+  ]
+}
