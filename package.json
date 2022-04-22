@@ -4,7 +4,8 @@
   "description": "Monorepo that demonstrates file uploads with Angular and Express",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "npx concurrently --kill-others \"npm start -w client\" \"npm start -w server\""
   },
   "repository": {
     "type": "git",
@@ -31,5 +32,8 @@
   "workspaces": [
     "client",
     "server"
-  ]
+  ],
+  "devDependencies": {
+    "concurrently": "^7.1.0"
+  }
 }
