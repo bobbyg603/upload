@@ -3,4 +3,4 @@
 	url = https://github.com/bobbyg603/upload-server
 [submodule "client"]
 	path = client
-	url = ./client
+	url = https://github.com/bobbyg603/upload-client
