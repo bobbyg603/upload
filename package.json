@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "start": "npx concurrently --kill-others \"npm start -w client\" \"npm start -w server\""
+    "start": "npx concurrently --kill-others \"npm start -w client\" \"npm start -w server\"",
+    "watch": "npx concurrently --kill-others \"npm start -w client\" \"npm run watch -w server\""
   },
   "repository": {
     "type": "git",
