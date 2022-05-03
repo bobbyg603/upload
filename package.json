@@ -1,10 +1,10 @@
 {
   "name": "upload",
   "version": "1.0.0",
-  "description": "Monorepo that demonstrates file uploads with Angular and Express",
+  "description": "Simple monorepo that demonstrates file uploads with Angular and Express",
   "main": "index.js",
   "scripts": {
-    "test": "test",
+    "test": "npm run test -w client",
     "start": "npx concurrently --kill-others \"npm start -w client\" \"npm start -w server\"",
     "watch": "npx concurrently --kill-others \"npm start -w client\" \"npm run watch -w server\""
   },
